@@ -1,0 +1,16 @@
+/* ---------Customizer--------- */
+.control-section-film-maker-lite h3.accordion-section-title {
+	background: #ea221c !important;
+	color: #fff !important;
+    padding: 20px 10px;
+}
+a.button.button-secondary.alignright {
+    color: #fff;
+    box-shadow: none;
+    font-weight: bold;
+    padding: 0 10px;
+    background: transparent;
+    height: 31px;
+    background: #222222;
+    border: none;
+}

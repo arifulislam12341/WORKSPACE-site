@@ -1,0 +1,194 @@
+/*
+Theme Name: Cinema Movie Director
+Template: film-maker-lite
+Text Domain: cinema-movie-director
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/themes/free-cinema-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Every Cinema Movie Director needs an audience, we offer the best cinema themes that can be used by elementor, film festivals, filmmakers, film production companies, Film studios, filmmakers, movie directors, movie reviews, production companies, and video production. This theme is fully responsive and 100% mobile-ready. The theme is adaptable to all screen sizes of mobile devices. Cinema Movie Director is a popular WordPress theme designed for movie-related websites. From movie production houses to cinema hall websites, this theme can be used to create any kind of movie-related website. It comes with an intuitive design and cool features that will help you create movie sites easily and quickly. If you are looking for a feature-rich single-page WordPress theme. In addition to the header and footer customization options, it also has layout manager and Woo Commerce options in the customizer itself. The key features of this theme are that it is flexible and can be used for different purposes such as a movie site, an online magazine or news site, etc. even more you'll have no trouble customizing your website with the help of the theme's powerful customization options. These include options like header & footer customization, layout manager & Woo Commerce options in the customizer itself.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, blog, portfolio, photography
+Version: 0.1
+Tested up to: 5.9
+Requires PHP: 5.6
+*/
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Merriweather', serif;
+}
+body,#theme-sidebar input[type="search"], #footer input[type="search"],#footer {
+  background: #1c1c1c;
+  color: #a8a8a8;
+}
+#footer li a,#footer li{
+  color: #a8a8a8;
+}
+#main-content a,.box-content p a,.box-content li a{
+  text-decoration: underline;
+}
+
+/* Color CSS */
+
+.readmore-btn a,.book-tkt-btn a,#theme-sidebar button[type="submit"], #footer button[type="submit"],.prev.page-numbers, .next.page-numbers,.page-numbers,.site-info,#theme-sidebar .tagcloud a:hover,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.wp-block-file .wp-block-file__button, .wp-block-button .wp-block-button__link,.box-info i,span.meta-nav,.more-btn a,.box:before, .box:after,#comments input[type="submit"],#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon{
+  background: #da0e2b;
+}
+a, a:hover,#theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a,.main-navigation a:hover,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a,#theme-sidebar h3,#theme-sidebar a:hover,h1, h2, h3, h4, h5, h6,h2.woocommerce-loop-product__title, .woocommerce div.product .product_title,.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price,#footer h3{
+  color: #da0e2b;
+}
+
+/* Header CSS */
+
+.page-template-front-page .top-header{
+  display: block;
+}
+.topbar-home{
+  display: none;
+}
+.page-template-front-page .media-links span:after, .page-template-front-page span.call-text:after{
+  top: 12px;
+  border-color: #ffffff;
+}
+.page-template-front-page .media-links a,.main-navigation a,nav.woocommerce-MyAccount-navigation ul li a,input[type="text"], input[type="email"], input[type="phno"], input[type="password"], input#url, textarea,.box-info i,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,#film-category h4{
+  color: #fff;
+}
+.readmore-btn a {
+  padding: 10px 15px;
+  border-radius: 0;
+}
+.headerbox{
+  background: transparent;
+}
+.main-navigation ul ul,#slider,#slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover{
+  background: #020202;
+}
+.comment-body {
+  color: #676767;
+}
+
+/* Post CSS */
+
+.page-box,#theme-sidebar section,.top-header,.products li,.pull-up-box,nav.woocommerce-MyAccount-navigation ul li,input[type="text"], input[type="email"], input[type="phno"], input[type="password"], input#url, textarea {
+  border: none;
+  background: #020202;
+}
+.page-box h4,#theme-sidebar li,#theme-sidebar h3,#theme-sidebar input[type="search"], #footer input[type="search"],.main-navigation ul ul li, .menubar.scrolled .main-navigation ul ul li {
+  border-color: #1c1c1c;
+}
+#theme-sidebar button[type="submit"]:hover, #footer button[type="submit"]:hover, .readmore-btn a:hover, #comments input[type="submit"]:hover, span.meta-nav:hover,.book-tkt-btn a:hover, .more-btn a:hover,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+  background: #fff;
+  color: #1c1c1c;
+}
+.sticky .page-box h4 {
+  background: url(assets/images/pin.png) no-repeat scroll 0 0px;
+}
+
+.page-template-front-page .headerbox {
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+}
+#slider .inner_carousel p {
+  background: transparent;
+  padding: 0;
+  display: block;
+  border-radius: 0;
+  font-weight: normal;
+}
+#slider .carousel-caption{
+  right: 50%;
+}
+
+/* Category CSS */
+
+#film-category hr {
+  border-top: 3px solid #da0e2b;
+  width: 10%;
+}
+#film-category h2{
+  font-size: 40px;
+  color: #fff;
+}
+p.heading-text {
+  width: 50%;
+  margin: 0 auto;
+}
+.category-inner-box i {
+  font-size: 100px;
+  color: #da0e2b;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+  color: #515151 !important;
+}
+
+/* OTHER CSS */
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+  border: 1px solid #333;
+  padding: 2px;
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+@media screen and (max-width: 1000px){
+  .toggle-nav button{
+    background: #da0e2b;
+  }
+  .sidenav{
+    background: #1c1c1c;
+  }
+  .main-navigation ul ul{
+    background: transparent;
+  }
+  .page-template-front-page .headerbox{
+    position: static;
+  }
+  p.heading-text {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+  #slider .inner_carousel p{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+  #slider .inner_carousel h2 {
+    font-size: 40px;
+  }
+}
